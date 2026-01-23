@@ -21,9 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.url)
 
-WebUI.setText(findTestObject('Object Repository/Admin 1/login/input_Email_email'), 'admin2@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Admin/login/input_Email_email'), 'admin2@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Admin 1/login/input_Password_password'), 'aeHFOx8jV/A=')
+WebUI.setEncryptedText(findTestObject('Object Repository/Admin/login/input_Password_password'), 'aeHFOx8jV/A=')
 
-WebUI.sendKeys(findTestObject('Object Repository/Admin 1/login/input_Password_password'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Object Repository/Admin/login/input_Password_password'), Keys.chord(Keys.ENTER))
 

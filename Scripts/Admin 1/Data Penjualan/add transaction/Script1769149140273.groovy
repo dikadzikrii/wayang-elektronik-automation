@@ -19,20 +19,32 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Admin 1/login admin 1'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Admin/Data Barang/add product/hamburger menu'))
+WebUI.click(findTestObject('Object Repository/Admin/Data Penjualan/Page_Dashboard/hamburger menu'))
 
-WebUI.click(findTestObject('Object Repository/Admin/Data Barang/add product/btn menu data barang'))
+WebUI.click(findTestObject('Object Repository/Admin/Data Penjualan/Page_Dashboard/btn data penjualan'))
 
-WebUI.click(findTestObject('Object Repository/Admin/Data Barang/add product/btn add product'))
+WebUI.click(findTestObject('Admin/Data Penjualan/Page_Dashboard/btn add transaction'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Admin/Data Barang/add product/select_Pilih dari Master Produk_pilih_master'), 
-    '6', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Admin/Data Penjualan/Page_Dashboard/select_Aksi_produk0id'), 
+    '2', true)
 
-WebUI.setText(findTestObject('Object Repository/Admin/Data Barang/add product/input__stok'), '5')
+WebUI.setText(findTestObject('Object Repository/Admin/Data Penjualan/Page_Dashboard/input_Stok tersedia 14_produk0jumlah'), 
+    '1')
 
-WebUI.click(findTestObject('Object Repository/Admin/Data Barang/add product/button__btn-submit'))
+WebUI.click(findTestObject('Object Repository/Admin/Data Penjualan/Page_Dashboard/button_Detail Produk_add-produk'))
 
-WebUI.click(findTestObject('Object Repository/Admin/Data Barang/add product/btn alert'))
+WebUI.selectOptionByValue(findTestObject('Object Repository/Admin/Data Penjualan/Page_Dashboard/select_Stok tersedia 14_produk1id'), 
+    '1', true)
+
+WebUI.setText(findTestObject('Object Repository/Admin/Data Penjualan/Page_Dashboard/input_Stok tersedia 10_produk1jumlah'), 
+    '1')
+
+WebUI.setText(findTestObject('Object Repository/Admin/Data Penjualan/Page_Dashboard/textarea_Alamat Pengiriman_alamat_pengiriman'), 
+    'Dukuh Kedawon')
+
+WebUI.click(findTestObject('Object Repository/Admin/Data Penjualan/Page_Dashboard/btn save'))
+
+WebUI.click(findTestObject('Object Repository/Admin/Data Penjualan/Page_Dashboard/btn alert'))
 
 WebUI.closeBrowser()
 

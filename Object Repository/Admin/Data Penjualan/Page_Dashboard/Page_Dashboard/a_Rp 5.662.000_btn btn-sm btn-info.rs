@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Rp 5.662.000_btn btn-sm btn-info</name>
+   <tag></tag>
+   <elementGuidId>44eb2e3d-c366-4b82-8647-08cf26cb1bca</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='main']/section/div/div/div/div/div[2]/div/div[2]/table/tbody/tr[2]/td[4]/div/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>tr:nth-of-type(2) > td.text-center > div.d-flex.gap-2.justify-content-center > a.btn.btn-sm.btn-info</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>4de1d543-485c-41ee-a229-140e578918ae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>http://127.0.0.1:8000/toko1/penjualan/1</value>
+      <webElementGuid>719918f8-8583-46cb-9f2e-684af2817d57</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-sm btn-info</value>
+      <webElementGuid>b486741a-9cd3-45d8-9775-f9d36b74358b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                                                 Lihat
+                                                            </value>
+      <webElementGuid>344583ac-e7d7-4ff1-8f61-27d0687101f5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/section[@class=&quot;section&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-12&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;table-responsive&quot;]/div[@class=&quot;datatable-wrapper datatable-loading no-footer sortable searchable fixed-columns&quot;]/div[@class=&quot;datatable-container&quot;]/table[@class=&quot;table datatable datatable-table&quot;]/tbody[1]/tr[2]/td[@class=&quot;text-center&quot;]/div[@class=&quot;d-flex gap-2 justify-content-center&quot;]/a[@class=&quot;btn btn-sm btn-info&quot;]</value>
+      <webElementGuid>5f8a6c98-7a8e-4cf7-9adb-c2f3460dfd18</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='main']/section/div/div/div/div/div[2]/div/div[2]/table/tbody/tr[2]/td[4]/div/a</value>
+      <webElementGuid>f8b93e4f-c01b-4d87-b16d-4a29d1563999</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp 5.662.000'])[2]/following::a[1]</value>
+      <webElementGuid>f8624154-b7fc-4494-91be-2564eb73fd78</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TRX-20260123-001-T1'])[1]/following::a[1]</value>
+      <webElementGuid>06ae0110-131b-41e8-b76c-2391f836cf5e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Showing 1 to 2 of 2 entries'])[1]/preceding::a[2]</value>
+      <webElementGuid>5d934d26-497e-40db-b143-4210d3acf471</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[@href='http://127.0.0.1:8000/toko1/penjualan/1']</value>
+      <webElementGuid>f0188b0f-5b50-45a5-88dc-dc1a4454bbcf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td[4]/div/a</value>
+      <webElementGuid>5fafadcf-b13d-40ff-8461-e4f0cf47f83c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'http://127.0.0.1:8000/toko1/penjualan/1' and (text() = '
+                                                                 Lihat
+                                                            ' or . = '
+                                                                 Lihat
+                                                            ')]</value>
+      <webElementGuid>d9f12b89-08a1-486a-8eb4-190a7385c6d2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

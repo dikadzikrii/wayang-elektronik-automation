@@ -17,22 +17,24 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Admin 3/login admin 3'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Admin 1/login admin 1'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Admin/Data Barang/add product/hamburger menu'))
+WebUI.click(findTestObject('Object Repository/Admin/Data Barang/add existing product/Page_Dashboard/hamburger menu'))
 
-WebUI.click(findTestObject('Object Repository/Admin/Data Barang/add product/btn menu data barang'))
+WebUI.click(findTestObject('Object Repository/Admin/Data Barang/add existing product/Page_Dashboard/btn menu product'))
 
-WebUI.click(findTestObject('Object Repository/Admin/Data Barang/add product/btn add product'))
+WebUI.click(findTestObject('Object Repository/Admin/Data Barang/add existing product/Page_Dashboard/btn add product'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Admin/Data Barang/add product/select_Pilih dari Master Produk_pilih_master'), 
-    '5', true)
+WebUI.click(findTestObject('Object Repository/Admin/Data Barang/add existing product/Page_Dashboard/label_Dari Master Produk_btn btn-outline-success'))
 
-WebUI.setText(findTestObject('Object Repository/Admin/Data Barang/add product/input__stok'), '5')
+WebUI.selectOptionByValue(findTestObject('Object Repository/Admin/Data Barang/add existing product/Page_Dashboard/select_Pilih Produk yang Sudah Ada_pilih_existing'), 
+    '1', true)
 
-WebUI.click(findTestObject('Object Repository/Admin/Data Barang/add product/button__btn-submit'))
+WebUI.setText(findTestObject('Object Repository/Admin/Data Barang/add existing product/Page_Dashboard/input__stok'), '2')
 
-WebUI.click(findTestObject('Object Repository/Admin/Data Barang/add product/btn alert'))
+WebUI.click(findTestObject('Object Repository/Admin/Data Barang/add existing product/Page_Dashboard/btn submit'))
+
+WebUI.click(findTestObject('Admin/Data Barang/add existing product/Page_Dashboard/btn alert'))
 
 WebUI.closeBrowser()
 

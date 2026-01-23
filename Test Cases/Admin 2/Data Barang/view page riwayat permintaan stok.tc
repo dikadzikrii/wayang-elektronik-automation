@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>view page riwayat permintaan stok</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b4ac4235-2fc3-4bae-82de-d52709b20f9e</testCaseGuid>
+</TestCaseEntity>

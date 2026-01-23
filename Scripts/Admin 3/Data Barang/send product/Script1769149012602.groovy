@@ -17,22 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Admin 3/login admin 3'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Object Repository/Admin/Data Barang/add product/hamburger menu'))
-
-WebUI.click(findTestObject('Object Repository/Admin/Data Barang/add product/btn menu data barang'))
-
-WebUI.click(findTestObject('Object Repository/Admin/Data Barang/add product/btn add product'))
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Admin/Data Barang/add product/select_Pilih dari Master Produk_pilih_master'), 
-    '5', true)
-
-WebUI.setText(findTestObject('Object Repository/Admin/Data Barang/add product/input__stok'), '5')
-
-WebUI.click(findTestObject('Object Repository/Admin/Data Barang/add product/button__btn-submit'))
-
-WebUI.click(findTestObject('Object Repository/Admin/Data Barang/add product/btn alert'))
-
-WebUI.closeBrowser()
-

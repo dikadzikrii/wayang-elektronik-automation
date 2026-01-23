@@ -17,22 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Admin 1/login admin 1'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Owner/login_owner'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Admin 1/Data Barang/add product/hamburger menu'))
+WebUI.click(findTestObject('Object Repository/Owner/Master Data/Barang/decline request/Page_Dashboard/hamburger menu'))
 
-WebUI.click(findTestObject('Object Repository/Admin 1/Data Barang/add product/btn menu data barang'))
+WebUI.click(findTestObject('Object Repository/Owner/Master Data/Barang/decline request/Page_Dashboard/btn master data'))
 
-WebUI.click(findTestObject('Object Repository/Admin 1/Data Barang/add product/btn add product'))
+WebUI.click(findTestObject('Object Repository/Owner/Master Data/Barang/decline request/Page_Dashboard/btn barang'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Admin 1/Data Barang/add product/select_Pilih dari Master Produk_pilih_master'), 
-    '6', true)
+WebUI.click(findTestObject('Object Repository/Owner/Master Data/Barang/decline request/Page_Dashboard/btn acc stock'))
 
-WebUI.setText(findTestObject('Object Repository/Admin 1/Data Barang/add product/input__stok'), '5')
+WebUI.click(findTestObject('Object Repository/Owner/Master Data/Barang/decline request/Page_Dashboard/btn acc alert'))
 
-WebUI.click(findTestObject('Object Repository/Admin 1/Data Barang/add product/button__btn-submit'))
+WebUI.waitForAlert(5)
 
-WebUI.click(findTestObject('Object Repository/Admin 1/Data Barang/add product/btn alert'))
+WebUI.acceptAlert()
 
 WebUI.closeBrowser()
 

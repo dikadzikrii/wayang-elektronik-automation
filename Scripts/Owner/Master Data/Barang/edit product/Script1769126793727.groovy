@@ -17,22 +17,27 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Admin 1/login admin 1'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Owner/login_owner'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Admin 1/Data Barang/add product/hamburger menu'))
+WebUI.click(findTestObject('Object Repository/Owner/Master Data/Barang/edit product/Page_Dashboard/hamburger menu'))
 
-WebUI.click(findTestObject('Object Repository/Admin 1/Data Barang/add product/btn menu data barang'))
+WebUI.click(findTestObject('Object Repository/Owner/Master Data/Barang/edit product/Page_Dashboard/btn master data'))
 
-WebUI.click(findTestObject('Object Repository/Admin 1/Data Barang/add product/btn add product'))
+WebUI.click(findTestObject('Object Repository/Owner/Master Data/Barang/edit product/Page_Dashboard/btn barang'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Admin 1/Data Barang/add product/select_Pilih dari Master Produk_pilih_master'), 
-    '6', true)
+WebUI.click(findTestObject('Object Repository/Owner/Master Data/Barang/edit product/Page_Dashboard/btn edit'))
 
-WebUI.setText(findTestObject('Object Repository/Admin 1/Data Barang/add product/input__stok'), '5')
+WebUI.setText(findTestObject('Object Repository/Owner/Master Data/Barang/edit product/Page_Dashboard/input__inputNamaBarang'), 
+    'LG003')
 
-WebUI.click(findTestObject('Object Repository/Admin 1/Data Barang/add product/button__btn-submit'))
+WebUI.setText(findTestObject('Object Repository/Owner/Master Data/Barang/edit product/Page_Dashboard/textarea_Deskripsi_deskripsi'), 
+    'TV 32 inci')
 
-WebUI.click(findTestObject('Object Repository/Admin 1/Data Barang/add product/btn alert'))
+WebUI.setText(findTestObject('Object Repository/Owner/Master Data/Barang/edit product/Page_Dashboard/input__harga'), '1600000.00')
+
+WebUI.click(findTestObject('Object Repository/Owner/Master Data/Barang/edit product/Page_Dashboard/button_Perubahan data akan mempengaruhi mas_cb17f3'))
+
+WebUI.click(findTestObject('Object Repository/Owner/Master Data/Barang/edit product/Page_Dashboard/btn alert'))
 
 WebUI.closeBrowser()
 

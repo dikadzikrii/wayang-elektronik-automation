@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn barang</name>
+   <tag></tag>
+   <elementGuidId>3fd06497-9305-4587-94e4-104ffcabb71f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//ul[@id='masterdata-nav']/li[2]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#masterdata-nav > li:nth-of-type(2) > a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>f45ba334-325c-4488-be30-030fe101f690</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/owner/master-barang</value>
+      <webElementGuid>4a62ed4b-1df2-4c64-ba69-ee0e32a1d9b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                            Barang
+                        </value>
+      <webElementGuid>4418d6dc-7f8d-4fbe-9472-d5df1719acbb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;masterdata-nav&quot;)/li[2]/a[1]</value>
+      <webElementGuid>b105500c-9984-488e-9054-a30b5d40b794</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='masterdata-nav']/li[2]/a</value>
+      <webElementGuid>7cd041b0-6dca-4e45-982c-1e0e8d2dc02d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kategori'])[1]/following::a[1]</value>
+      <webElementGuid>304a9bad-ffcb-45d4-9de0-97a033f5279f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Master Data'])[1]/following::a[2]</value>
+      <webElementGuid>052188b3-373e-4d33-aacf-a5020e70a953</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Perpindahan Barang'])[1]/preceding::a[1]</value>
+      <webElementGuid>ff63421e-4196-40a3-b855-60fa3b24d2e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/owner/master-barang')]</value>
+      <webElementGuid>18a40de1-68de-4b89-a789-07aaebcf791c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/ul/li[2]/a</value>
+      <webElementGuid>97f71656-22a1-46d5-973c-ffd2d8691c51</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/owner/master-barang' and (text() = '
+                            Barang
+                        ' or . = '
+                            Barang
+                        ')]</value>
+      <webElementGuid>f4f2e984-7692-433b-8be3-6ab8a3702be2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn alert</name>
+   <tag></tag>
+   <elementGuidId>67d75d75-6a42-4af4-9144-b66e9deca34e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='submit'])[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-success.btn-sm</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>421a677d-0623-4851-9c21-7332801386c6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>d02f3e76-7b90-4265-abfc-380a5996f365</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-success btn-sm</value>
+      <webElementGuid>007e3c06-f4b8-4b2f-b62e-61ada2a6d195</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>return confirm('Yakin ingin menyetujui permintaan stok ini?')</value>
+      <webElementGuid>ede19bb9-d228-4c0f-bcf9-0605ba74d22e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Setujui Permintaan</value>
+      <webElementGuid>9054eff6-4b69-4c71-aa2b-dc27aea5399f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                                                Setujui
+                                                            </value>
+      <webElementGuid>f078ad10-f48e-467d-b2c6-5fc11aa9fa4e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/section[@class=&quot;section&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-12&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;table-responsive&quot;]/div[@class=&quot;datatable-wrapper datatable-loading no-footer sortable searchable fixed-columns&quot;]/div[@class=&quot;datatable-container&quot;]/table[@class=&quot;table datatable datatable-table&quot;]/tbody[1]/tr[1]/td[6]/form[@class=&quot;d-inline&quot;]/button[@class=&quot;btn btn-success btn-sm&quot;]</value>
+      <webElementGuid>38bd44fa-d1fe-41d4-aea3-d82f7ae5325f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='submit'])[3]</value>
+      <webElementGuid>76d6a160-18ba-43dd-94c1-1a42f4e36428</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='main']/section/div/div/div/div/div/div/div[2]/table/tbody/tr/td[6]/form/button</value>
+      <webElementGuid>f0249656-c808-4737-8838-c2ee46a27286</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='toko1'])[1]/following::button[1]</value>
+      <webElementGuid>95749981-d4ee-42fe-bd62-abf334657cd5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SRS-XB23'])[1]/following::button[1]</value>
+      <webElementGuid>4c562e8f-06f9-4492-9cfe-3fbe8b191024</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tolak'])[1]/preceding::button[1]</value>
+      <webElementGuid>52131475-e662-4f0a-8126-cc994b268723</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Detail'])[1]/preceding::button[2]</value>
+      <webElementGuid>8928f3e6-c918-4c92-9024-5a58489ce7bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Setujui']/parent::*</value>
+      <webElementGuid>70f73c4c-9c57-4f80-96db-feccd402de4c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[6]/form/button</value>
+      <webElementGuid>1e9cf681-3807-4582-bae9-fb026cdcafb6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'submit' and @title = 'Setujui Permintaan' and (text() = '
+                                                                Setujui
+                                                            ' or . = '
+                                                                Setujui
+                                                            ')]</value>
+      <webElementGuid>1f753d22-524c-4d93-9f01-fee487f56cf7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

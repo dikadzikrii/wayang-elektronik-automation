@@ -17,7 +17,7 @@ Dokumen ini menjelaskan rencana pengujian sederhana untuk memastikan fitur utama
 ## 3. Fitur yang Diuji
 - Login & Logout
 - Manajemen Produk (Tambah, Edit, Hapus, Lihat)
-- Transaksi Penjualan
+- Pencatatan Data Penjualan
 - Perpindahan Stok Antar Toko
 - Laporan Penjualan
 - Hitung Omset

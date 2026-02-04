@@ -1,0 +1,198 @@
+,,,,,,,,,
+,Project Name - Testing Progress,,,,,,,,
+,Status,Total,Rate (%),,POSITIF,NEGATIF,,,
+,Total Test Case,21,100%,,14,7,,,
+,Pass,21,"100,00%",,,,,,
+,Fail,0,"0,00%",,,,,,
+,Ready To Test,0,"0,00%",,,,,,
+,No Tested,0,"0,00%",,,,,,
+,Execution Rate:,"100,00%",,,,,,,
+,,,,,,,,,
+TC/ID,Modul,Condition,Test Case Title,Test Steps,Test Data,Expected Result,Status,Actual Result,Remark (Engineer)
+Login,,,,,,,,,
+TC001,Login,Positif,User login dengan data valid,"- Buka halaman web
+- Isi dengan data valid
+- Klik login","Email: owner@gmail.com
+Password: 123456",User dialihkan ke halaman dashboard,Pass,User berhasil dialihkan ke halaman dashboard,
+TC002,Login,Negatif,Blank email field,"- Buka halaman web
+- Isi password valid
+- Klik login",,Sistem menampilkan pesan error “Email wajib diisi”,Pass,Sistem menampilkan pesan error “Email wajib diisi”,
+TC003,Login,Negatif,Blank password field,"- Buka halaman web
+- Isi email valid
+- Klik login",,Sistem menampilkan pesan error “Password wajib diisi”,Pass,Sistem menampilkan pesan error “Password wajib diisi”,
+TC004,Login,Negatif,Invalid email format,"- Buka halaman web
+- Isi email dengan data tidak valid
+- Isi password valid
+- Klik login","Email: owner#gmail.com
+Password: 123456",Sistem menampilkan pesan error “Format email tidak valid”,Pass,Sistem menampilkan pesan error “Format email tidak valid”,
+Manajemen User,,,,,,,,,
+TC005,User,Positif,Tambah User,"- User berada di dashboard
+- Klik menu Manajemen User
+- Klik Tambah User
+- Isi form dengan data valid
+- Klik Submit",,"- Pesan “User berhasil ditambahkan” muncul
+- User baru tampil di tabel",Pass,"- Pesan “User berhasil ditambahkan” muncul
+- User baru tampil di tabel",
+TC006,User,Negatif,Tambah User Dengan Data Tidak Valid,"- User berada di dashboard
+- Klik menu Manajemen User
+- Klik Tambah User
+- Isi form dengan data tidak valid
+- Klik Submit","Nama: (kosong)
+Email: Doni#gmail.com
+Password: 123","- Sistem menampilkan pesan error “Nama wajib diisi” jika nama kosong
+- Sistem menampilkan pesan error “Format email tidak valid” jika email salah
+- Sistem menampilkan pesan error “Password minimal 6 karakter” jika password pendek
+- User tidak muncul di tabel",Pass,"- Sistem menampilkan pesan error “Nama wajib diisi” jika nama kosong
+- Sistem menampilkan pesan error “Format email tidak valid” jika email salah
+- Sistem menampilkan pesan error “Password minimal 6 karakter” jika password pendek
+- User tidak muncul di tabel",
+TC007,User,Positif,Suspend User,"- User berada di dashboard
+- Klik menu Manajemen User
+- Klik tombol Suspend
+- Klik Ya, Suspend
+- Klik Ok",,"- User berhasil disuspend
+- User tidak dapat login",Pass,"- User berhasil disuspend
+- User tidak dapat login",
+TC008,User,Positif,Search User dengan Data Valid,"- User berada di dashboard
+- Klik menu Manajemen User
+- Masukkan nama user yang valid di kolom Search
+- Tekan Enter atau klik tombol Search",Nama: Dudung,"- User sesuai query muncul di tabel
+- Semua data yang ditampilkan sesuai user yang dicari",Pass,"- User sesuai query muncul di tabel
+- Semua data yang ditampilkan sesuai user yang dicari",
+TC009,User,Negatif,Search User dengan Data Tidak Ada,"- User berada di dashboard
+- Klik menu Manajemen User
+- Masukkan nama user yang tidak ada di database
+- Tekan Enter atau klik tombol Search",Nama: Fulan Bin Fulan,Sistem menampilkan pesan “User tidak ditemukan” atau tabel kosong,Pass,Sistem menampilkan pesan “User tidak ditemukan” atau tabel kosong,
+TC010,User,Negatif,Search User dengan Input Kosong,"- User berada di dashboard
+- Klik menu Manajemen User
+- Kosongkan kolom Search
+- Tekan Enter atau klik tombol Search",,Tabel menampilkan semua user (default),Pass,Tabel menampilkan semua user (default),
+TC011,User,Positif,Aktifkan User yang Disuspend,"- User berada di dashboard
+- Klik menu Manajemen User
+- Pilih user yang statusnya Suspended
+- Klik tombol Activate / Aktifkan
+- Klik Ya, Aktifkan
+- Klik Ok",,"- User berhasil diaktifkan kembali
+- Status user berubah menjadi aktif di tabel
+- User dapat login kembali dengan akun yang diaktifkan",Pass,"- User berhasil diaktifkan kembali
+- Status user berubah menjadi aktif di tabel
+- User dapat login kembali dengan akun yang diaktifkan",
+Kategori,,,,,,,,,
+TC012,Kategori,Positif,Tambah Kategori,"- User berada di dashboard
+- Klik tombol Master Data
+- Klik Menu Kategori
+- Klik tombol Tambah Kategori
+- Isi form kategori baru
+- Klik Submit",Nama Kategori: TV,"- Pesan “Kategori berhasil ditambahkan” muncul
+- Kategori baru tampil di tabel",Pass,"- Pesan “Kategori berhasil ditambahkan” muncul
+- Kategori baru tampil di tabel",
+TC013,Kategori,Negatif,Tambah Kategori dengan Data Tidak Valid,"- User berada di dashboard
+- Klik Master Data 
+- Klik Menu Kategori
+- Klik Tambah Kategori
+- Kosongkan field Nama Kategori
+- Klik Submit",Nama Kategori:,"- Sistem menampilkan pesan error “Nama kategori wajib diisi”
+- Kategori tidak muncul di tabel",Pass,"- Sistem menampilkan pesan error “Nama kategori wajib diisi”
+- Kategori tidak muncul di tabel",
+TC014,Kategori,Positif,Edit Kategori,"- User berada di dashboard
+- Klik Master Data
+- Klik Menu Kategori
+- Pilih kategori yang akan diedit
+- Klik Edit
+- Ubah nama kategori
+- Klik Submit",,"- Pesan “Kategori berhasil diupdate” muncul
+- Tabel menampilkan nama kategori terbaru",Pass,"- Pesan “Kategori berhasil diupdate” muncul
+- Tabel menampilkan nama kategori terbaru",
+TC015,Kategori,Positif,Hapus Kategori,"- User berada di dashboard
+- Klik Master Data
+- Klik Menu Kategori
+- Pilih kategori yang akan dihapus
+- Klik Hapus
+- Klik Ya, Hapus
+- Klik Ok",,"- Pesan “Kategori berhasil dihapus” muncul
+- Kategori tidak lagi tampil di tabel",Pass,"- Pesan “Kategori berhasil dihapus” muncul
+- Kategori tidak lagi tampil di tabel",
+TC016,Kategori,Positif,Hapus Kategori yang Masih Memiliki Produk,"- User berada di dashboard
+- Klik Master Data
+- Klik Menu Kategori
+- Pilih kategori yang memiliki produk
+- Klik Hapus
+- Klik Ya, Hapus
+- Klik Ok",Nama Kategori: TV (ada produk),"- Pesan “Kategori berhasil dihapus” muncul
+- Kategori tidak lagi tampil di tabel
+- Produk terkait tetap ada, tapi kategori-nya kosong atau default
+- Tidak ada error di UI / database",Pass,"- Pesan “Kategori berhasil dihapus” muncul
+- Kategori tidak lagi tampil di tabel
+- Produk terkait tetap ada, tapi kategori-nya kosong atau default
+- Tidak ada error di UI / database",
+Barang,,,,,,,,,
+TC017,Barang,Positif,Tambah Barang Baru,"- User berada di dashboard
+- Klik Master Data
+- Klik Menu Barang
+- Klik tombol Tambah Barang
+- Pilih bagian Tambah Barang Baru
+- Isi form barang baru (nama, deskripsi, harga beli, harga jual, kategori, stok awal)
+- Klik Submit","Nama: Laptop A
+Deskripsi: Laptop Gaming
+Harga Beli: 4.500.000
+Harga Jual: 5.000.000
+Kategori: Elektronik
+Stok Awal: 10","- Pesan “Barang berhasil ditambahkan” muncul
+- Barang baru tampil di tabel Barang
+- Semua data sesuai input",Pass,"- Pesan “Barang berhasil ditambahkan” muncul
+- Barang baru tampil di tabel Barang
+- Semua data sesuai input",
+TC018,Barang,Positif,Tambah Stok Barang yang Sudah Ada,"- User berada di dashboard
+- Klik Master Data
+- Klik Menu Barang
+- Klik tombol Tambah Barang
+- Pilih bagian Tambah Stok Existing
+- Pilih barang yang akan ditambahkan stoknya
+- Masukkan jumlah stok baru di kolom Tambah Stok
+- Klik Submit","Nama Barang: Laptop A
+Tambah Stok: 5","- Pesan “Stok berhasil ditambahkan” muncul
+- Stok barang di tabel bertambah sesuai input
+- Data lain (Nama, Deskripsi, Harga, Kategori) tidak berubah
+- Tidak ada error di UI",Pass,"- Pesan “Stok berhasil ditambahkan” muncul
+- Stok barang di tabel bertambah sesuai input
+- Data lain (Nama, Deskripsi, Harga, Kategori) tidak berubah
+- Tidak ada error di UI",
+TC019,Barang,Positif,Edit Barang yang Sudah Ada,"- User berada di dashboard
+- Klik Master Data
+- Klik Menu Barang
+- Pilih barang yang ingin diedit di tabel
+- Klik tombol Edit
+- Ubah field sesuai kebutuhan (Nama, Deskripsi, Harga Beli, Harga Jual, Kategori)
+- Klik Submit","Nama: Laptop A Plus
+Deskripsi: Laptop Gaming Update
+Harga Beli: 4.700.000
+Harga Jual: 5.200.000
+Kategori: Elektronik","- Pesan “Barang berhasil diupdate” muncul
+- Tabel menampilkan data barang terbaru sesuai input
+- Keuntungan dihitung otomatis sesuai harga beli & jual
+- Data lain yang tidak diedit tetap sama",Pass,"- Pesan “Barang berhasil diupdate” muncul
+- Tabel menampilkan data barang terbaru sesuai input
+- Keuntungan dihitung otomatis sesuai harga beli & jual
+- Data lain yang tidak diedit tetap sama",
+TC020,Barang,Positif,Hapus Barang,"- User berada di dashboard
+- Klik Master Data
+- Klik Menu Barang
+- Pilih barang yang akan dihapus
+- Klik tombol Hapus
+- Klik Ya, Hapus
+- Klik Ok",Nama Barang: Laptop A Plus,"- Pesan “Barang berhasil dihapus” muncul
+- Barang hilang dari tabel Barang",Pass,"- Pesan “Barang berhasil dihapus” muncul
+- Barang hilang dari tabel Barang",
+TC021,Barang - Permintaan Stok,Positif,Owner konfirmasi pengambilan barang,"- Owner berada di dashboard
+- Klik Master Data
+- Klik Menu Barang
+- Klik tombol Permintaan Stok
+- Pilih pengajuan yang ingin disetujui
+- Klik Setujui
+- Klik Ok di popup konfirmasi",,"- Stok Master berkurang sesuai jumlah disetujui
+- Stok Toko Admin bertambah sesuai jumlah disetujui
+- Status pengajuan berubah menjadi “Disetujui”
+- Pesan sukses muncul",Pass,"- Stok Master berkurang sesuai jumlah disetujui
+- Stok Toko Admin bertambah sesuai jumlah disetujui
+- Status pengajuan berubah menjadi “Disetujui”
+- Pesan sukses muncul",

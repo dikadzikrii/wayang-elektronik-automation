@@ -23,6 +23,12 @@ Profiles/
 Scripts/
 Test Cases/
 Test Suites/
+docs/
+  ├── Manual Test Case - Test Case Owner.csv
+  ├── Manual Test Case - Test Case Admin 1.csv
+  ├── Manual Test Case - Test Case Admin 2.csv
+  ├── Manual Test Case - Test Case Admin 3.csv
+  └── test-plan.md
 ```
 
 

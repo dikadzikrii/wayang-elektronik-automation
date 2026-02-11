@@ -4,16 +4,14 @@
 This repository contains automated test scripts for the Wayang Elektronik Sales & Inventory System.
 The tests are created using Katalon Studio to validate core features such as login, product management, sales data recording, and report generation.
 
-This project is used as part of my learning process and as a portfolio project for a Junior Quality Assurance / QA Automation role.
-
-This project is used as part of my learning and junior QA portfolio.
+This project serves as part of my learning process and portfolio for Junior Quality Assurance / QA Automation roles.
 
 
 ## Tools
 - Katalon Studio
 - Selenium (via Katalon)
 - Groovy
-- Laravel (Application Under Test)
+- XAMPP (Local server environment)
 - Git & GitHub
 
 
@@ -29,14 +27,18 @@ Test Suites/
 
 
 ## How to Run
-1. Install **Katalon Studio**  
-2. Clone this repository:
+1. Start XAMPP (Apache & MySQL)
+2. Run the Wayang Elektronik Laravel application
+3. Install Katalon Studio
+4. Clone this repository:
    ```bash
    git clone https://github.com/dikadzikrii/wayang-elektronik-automation.git
-3. Open the project in Katalon Studio
-4. Run any Test Suite
+   ```
+5. Open the project in Katalon Studio
+6. Run any Test Suite
 
 ## Execution Notes
+This automation project is designed to run locally using Katalon Studio.
+The application under test is a Laravel-based system developed as a final project (TA). 
+The system runs in a local development environment using XAMPP (Apache & MySQL).
 
-This automation project is currently executed locally using Katalon Studio.
-CI/CD integration (such as GitHub Actions or Jenkins) is planned as a future improvement.

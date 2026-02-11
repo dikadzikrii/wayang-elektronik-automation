@@ -1,0 +1,70 @@
+,,,,,,,,,
+,Wayang Elektronik - Testing Progress,,,,,,,,
+,Status,Total,Rate (%),,POSITIF,NEGATIF,,,
+,Total Test Case,8,100%,,5,3,,,
+,Pass,8,"100,00%",,,,,,
+,Fail,0,"0,00%",,,,,,
+,Ready To Test,0,"0,00%",,,,,,
+,No Tested,0,"0,00%",,,,,,
+,Execution Rate:,"100,00%",,,,,,,
+,,,,,,,,,
+TC/ID,Modul,Condition,Test Case Title,Test Steps,Test Data,Expected Result,Status,Actual Result,Remark (Engineer)
+Login,,,,,,,,,
+TC021,Login,Positif,User login dengan data valid,"- Buka halaman web
+- Isi dengan data valid
+- Klik login","Email: admin1@gmail.com
+Password: 123456",User dialihkan ke halaman dashboard,Pass,User berhasil dialihkan ke halaman dashboard,
+TC022,Login,Negatif,Blank email field,"- Buka halaman web
+- Isi password valid
+- Klik login",,Sistem menampilkan pesan error “Email wajib diisi”,Pass,Sistem menampilkan pesan error “Email wajib diisi”,
+TC023,Login,Negatif,Blank password field,"- Buka halaman web
+- Isi email valid
+- Klik login",,Sistem menampilkan pesan error “Password wajib diisi”,Pass,Sistem menampilkan pesan error “Password wajib diisi”,
+TC024,Login,Negatif,Invalid email format,"- Buka halaman web
+- Isi email dengan data tidak valid
+- Isi password valid
+- Klik login","Email: admin1#gmail.com
+Password: 123456",Sistem menampilkan pesan error “Format email tidak valid”,Pass,Sistem menampilkan pesan error “Format email tidak valid”,
+Data Barang,,,,,,,,,
+TC024,Data Barang,Positif,Admin melihat semua data barang,"- Admin berada di dashboard
+- Klik Menu Data Barang",,Admin dapat melihat semua daftar barang sesuai toko yang dia kelola,Pass,Admin dapat melihat semua daftar barang sesuai toko yang dia kelola,
+TC025,Data Barang,Positif,Tambah barang dari Master Produk,"- Admin berada di dashboard
+- Klik Menu Data Barang
+- Klik tombol Tambah Barang
+- Pilih produk dari Master Produk
+- Masukkan jumlah yang akan diambil untuk toko
+- Klik Submit",,"- Sistem menampilkan pesan “Permintaan Stok menunggu konfirmasi Owner”
+- Stok Master belum berkurang
+- Data pengajuan tersimpan dan bisa dilihat Owner untuk disetujui",Pass,"- Sistem menampilkan pesan “Permintaan Stok menunggu konfirmasi Owner”
+- Stok Master belum berkurang
+- Data pengajuan tersimpan dan bisa dilihat Owner untuk disetujui",
+TC026,Data Barang,Positif,Tambah Stok Barang yang Sudah Ada,"- Admin berada di dashboard
+- Klik Menu Data Barang
+- Klik tombol Tambah Barang
+- Pilih produk dari Tambah Stok Existing
+- Masukkan jumlah yang akan diambil untuk toko
+- Klik Submit",,"- Sistem menampilkan pesan “Permintaan Stok menunggu konfirmasi Owner”
+- Stok Master belum berkurang
+- Data pengajuan tersimpan dan bisa dilihat Owner untuk disetujui",Pass,"- Sistem menampilkan pesan “Permintaan Stok menunggu konfirmasi Owner”
+- Stok Master belum berkurang
+- Data pengajuan tersimpan dan bisa dilihat Owner untuk disetujui",
+Data Penjualan,,,,,,,,,
+TC027,Data Penjualan,Positif,Tambah Transaksi Penjualan Baru,"- User berada di dashboard
+- Klik menu Data Penjualan
+- Klik tombol Tambah Transaksi
+- Pilih produk dari master barang (misal: 43UN7000PTA)
+- Masukkan jumlah barang yang dijual
+- Tambahkan produk lain jika ada
+- Isi Biaya Pengiriman dan Alamat Pengiriman
+- Pilih Tanggal Transaksi
+- Klik Simpan","Produk: 43UN7000PTA (Stok: 17)
+Jumlah: 5
+Biaya Pengiriman: 50.000
+Alamat: Jalan Raya No.1, Brebes
+Tanggal: 04/02/2026","- Data transaksi tersimpan
+- Total produk, subtotal, dan total keseluruhan sesuai perhitungan
+- Stok barang berkurang sesuai jumlah yang dijual
+- Transaksi tampil di tabel Data Penjualan",Pass,"- Data transaksi tersimpan
+- Total produk, subtotal, dan total keseluruhan sesuai perhitungan
+- Stok barang berkurang sesuai jumlah yang dijual
+- Transaksi tampil di tabel Data Penjualan",

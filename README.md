@@ -14,6 +14,25 @@ This project serves as part of my learning process and portfolio for Junior Qual
 - XAMPP (Local server environment)
 - Git & GitHub
 
+## Test Coverage
+
+This project includes test cases covering:
+- Login & Logout
+- Product Management (Add, Edit, Delete, View)
+- Sales Data Recording
+- Stock Transfer Between Stores
+- Sales Reports
+- Revenue Calculation
+
+## Documentation
+
+📊 **[View Complete Test Cases (Google Sheets)](https://docs.google.com/spreadsheets/d/1mQqKiFXlSC_fhGgEZ3IKQZuxo-E-1pcmBO3vdUuRdb8/edit?usp=sharing)**
+
+*The spreadsheet contains detailed test documentation for different user roles (Owner, Admin 1-3).*
+
+📄 **[Test Plan](./docs/test-plan.md)** - Testing approach and methodology
+
+*Individual CSV files are also available in the [docs](./docs) folder.*
 
 ## Project Structure
 ```

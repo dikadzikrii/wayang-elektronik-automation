@@ -26,6 +26,10 @@ This project includes test cases covering:
 
 ## Documentation
 
+📂 **[Full Portfolio Folder (Google Drive)](https://drive.google.com/drive/folders/1i6knuoiktq5J7yIIVOLdpra1wyKbxwiD?usp=drive_link)**
+
+*(Includes: Project Overview, Bug Reports, Issue Screenshots)*
+
 📊 **[View Complete Test Cases (Google Sheets)](https://docs.google.com/spreadsheets/d/1mQqKiFXlSC_fhGgEZ3IKQZuxo-E-1pcmBO3vdUuRdb8/edit?usp=sharing)**
 
 *The spreadsheet contains detailed test documentation for different user roles (Owner, Admin 1-3).*
